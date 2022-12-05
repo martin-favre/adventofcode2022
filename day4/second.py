@@ -1,0 +1,2 @@
+#im so sorry
+print([any([x in [y for y in range(int(line.split(',')[0].split('-')[0]), int(line.split(',')[0].split('-')[1])+1)] for x in [x for x in range(int(line.split(',')[1].split('-')[0]), int(line.split(',')[1].split('-')[1])+1)]]) for line in open('day4/data.txt')].count(True))
